@@ -97,7 +97,6 @@ nav ul li a {
 	padding: 2em;
 	z-index: 10;
 }
-
 #galeria {
 	background-color: rgb(234, 122, 85);
 	display: block;
@@ -415,8 +414,8 @@ content p {
 }
 
 #newsimg01 {
-	float: left;
-	margin-right: 1em;
+	float: right;
+	margin-left: 1em;
 	margin-bottom: 1em;
 }
 
