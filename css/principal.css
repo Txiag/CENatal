@@ -15,42 +15,42 @@ header form {
 	/*margin-right: 5em;*/
 }
 
-header form input[type=image] {
+nav ul li form input[type=image] {
 	margin-bottom: -0.25em;
 }
 
-header form input[type=text] {
+nav ul li form input[type=text] {
 	width: 15em;
 	padding: 0.5em 0.5em 0.5em 0.5em;
-	border: 2px solid rgb(230, 93, 47);
+	border: 1px solid white;
 	border-radius: 0.5em;
-	background-color: #f3f3f1;
+	background-color: #007fa0;
 	text-align: center;
 	outline: none;
 }
 
-header form input[type=text]::-webkit-input-placeholder {
-	color: rgb(230, 93, 47);
+nav ul li form input[type=text]::-webkit-input-placeholder {
+	color:white;
 	font-style:italic;
 }
 
-header form input[type=text]:focus::-webkit-input-placeholder{
+nav ul li form input[type=text]:focus::-webkit-input-placeholder{
 	text-indent: -999px
 }
 
-header form input[type=text]::-moz-placeholder {
+nav ul li form input[type=text]::-moz-placeholder {
 	color: rgb(230, 93, 47);
 }
 
-header form input[type=text]:focus::-moz-placeholder{
+nav ul li form input[type=text]:focus::-moz-placeholder{
 	text-indent: -999px
 }
 
-header form input[type=text]:-ms-input-placeholder {
+nav ul li form input[type=text]:-ms-input-placeholder {
 	color: rgb(230, 93, 47);
 }
 
-header form input[type=text]:-moz-placeholder {
+nav ul li form input[type=text]:-moz-placeholder {
 	color: rgb(230, 93, 47);
 }
 
